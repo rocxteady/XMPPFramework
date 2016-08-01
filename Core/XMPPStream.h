@@ -4,7 +4,9 @@
 #import "GCDMulticastDelegate.h"
 #import "GCDAsyncSocket.h"
 
-@import KissXML;
+#if TARGET_OS_IPHONE
+  #import "DDXML.h"
+#endif
 
 @class XMPPSRVResolver;
 @class XMPPParser;

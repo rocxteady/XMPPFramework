@@ -1,12 +1,9 @@
-.DS_Store
-build
-*.mode1v3
 *.pbxuser
-project.xcworkspace
+*.mode1v3
+*.mode2v3
 xcuserdata
-.svn
-DerivedData
-*.orig
-*.xccheckout
+.DS_Store
+project.xcworkspace
+.idea
+Xcode/Testing2/Pods
 
-Pods/
